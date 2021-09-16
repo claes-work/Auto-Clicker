@@ -12,11 +12,17 @@ exit_key = KeyCode(char='e')
 
 class ClickMouse(threading.Thread):
     def __init__(self, delay, button):
+        super(ClickMouse, self).__init__()
+        self.delay = delay
+        self.button = button
+        self.running = False
+        self.program_running = True
 
     def start_clicking(self):
 
     def stop_clicking(self):
 
     def exit(self):
+
 
     def run(self):
