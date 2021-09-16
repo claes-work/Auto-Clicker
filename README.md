@@ -1,5 +1,5 @@
 # Auto-Clicker
-A simple python script that will click every **x** seconds. (preset every 10 seconds)\
+A simple python script that will click every **x** seconds (preset every 10 seconds).\
 Ideal to prevent a game from disconnecting you from the server due to inactivity.
 
 <table>
