@@ -25,6 +25,7 @@ class ClickMouse(threading.Thread):
         self.running = False
 
     def exit(self):
-
+        self.stop_clicking()
+        self.program_running = False
 
     def run(self):
