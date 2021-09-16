@@ -19,6 +19,7 @@ class ClickMouse(threading.Thread):
         self.program_running = True
 
     def start_clicking(self):
+        self.running = True
 
     def stop_clicking(self):
 
