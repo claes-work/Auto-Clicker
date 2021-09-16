@@ -29,3 +29,10 @@ class ClickMouse(threading.Thread):
         self.program_running = False
 
     def run(self):
+        while self.program_running:
+            while self.running:
+                mouse.click(self.button)
+                time.sleep(self.delay)
+            time.sleep(0.1)
+
+
